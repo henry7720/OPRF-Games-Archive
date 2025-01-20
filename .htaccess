@@ -1,0 +1,12 @@
+Options -Indexes
+ErrorDocument 400 /assets/errors/400.html
+ErrorDocument 401 /assets/errors/401.html
+ErrorDocument 403 /assets/errors/403.html
+ErrorDocument 404 /assets/errors/404.php
+ErrorDocument 500 /assets/errors/500.html
+Redirect 301 /site-unblocker /site-embedder
+Redirect 301 /twitch-unblocker /twitch-embedder
+RedirectMatch 404 /assets/includes/header.php
+RedirectMatch 404 /assets/includes/navbar.html
+RedirectMatch 404 /list-of-games
+RedirectMatch 404 /site-embedder-alternate

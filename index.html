@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Linear Equations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/index.css">
+  </head>
+  <body>
+    <h1>Linear Equations</h1>
+    <p>Welcome to Linear Equations! Your one-stop-shop for basic Linear Algebra. Linear equations make life very easy! You can predict (see into) the future outcomes of certain problems.</p>
+    <p>The most common linear equation (rule or function) is <var>y</var> = <var>mx</var> + <var>b</var>.</p>
+    <p>To actually use this equation, you have to know what the variables represent, and what they mean. So let's break it down.</p>
+    <p><var>M</var> is the constant rate of change (<span id="wow">slope</span>) which is known as <img class="formula" width="275" src="/assets/img/m-equations.svg" alt="m = &Delta; y &divide; &Delta; x = vertical change/horizontal change = rise/run"> In the case of our table, the <var>x</var> value increases by 1, while the <var>y</var> value by 5, so we divide the change in <var>y</var> by the change in <var>x</var>. In the example of our table, this is 3 &divide; 1 = 3.</p>
+    <p><var>B</var> is the y-intercept (starting value or flat fee). <var>B</var> can be found by looking for the <var>y</var> value when the <var>x</var> value is 0, either by backtracking on your table or seeing the corresponding number to the <var>x</var> value equaling 0. That's the y-intercept; in the table below, it's 5.</p>
+    <p>Firstly, plug in the formula. For example: if I want to find what the <var>y</var> value will be, when the <var>x</var> value is 279, I plug in 279 for <var>x</var>: <var>y</var> = 3(279) + 5. Once solved, you should get an answer of 842.<br>But, what if you want to find the <var>x</var> value when the <var>y</var> value is 842? Well that's actually quite simple, you can find the <var>x</var> value by plugging in 842 for <var>y</var>: 842 = 3<var>x</var> + 5. Now all you have to do is inverse operations, and once solved you should get an answer of 279!</p>
+    <table id="default-table">
+      <caption id="flip-table-caption">&#8635; Flip Table</caption>
+      <tr>
+        <th><var>x</var></th>
+        <td>0</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th><var>y</var></th>
+        <td>5</td>
+        <td>8</td>
+        <td>11</td>
+        <td>14</td>
+        <td>17</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <table id="flipped-table" style="display: none;">
+      <tr>
+        <th><var>x</var></th>
+        <th><var>y</var></th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
